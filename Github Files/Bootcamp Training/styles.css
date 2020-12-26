@@ -1,0 +1,40 @@
+/* My first Stylesheet. */
+body { font-family: 'Times New Roman', Times, serif;
+    background-color: darkgray;
+}
+img {
+    border:5px solid rgb(133, 77, 133)
+}
+
+h1{
+    box-sizing: content-box;
+}
+
+
+.example-color {
+            color: #d74f25;
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        ul a:link {
+            font-weight: bolder;
+            text-decoration: none;
+            color: mediumvioletred;    
+        }
+
+        a:visited {
+            color: midnightblue;
+            font-weight: lighter;
+            font-size: 5rem;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-weight: normal;
+            background-color: white;
+            color: darkorange;
+        }
+
+        a.harvard:link {
+            color: maroon;
+        }
